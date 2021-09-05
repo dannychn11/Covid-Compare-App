@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  text-align: center;
+}
+
+h {
+  text-align: center;
+  font-size: 70px;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color:rgb(62, 62, 165);
+  color: white;
+  text-align: center;
+  display: block;
+}
